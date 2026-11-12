@@ -8,4 +8,11 @@ pluginManagement {
   }
 }
 
+dependencyResolutionManagement {
+  repositories {
+    google()
+    mavenCentral()
+  }
+}
+
 include(":core")
